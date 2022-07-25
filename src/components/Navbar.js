@@ -36,6 +36,7 @@ const MenuBars = styled.i``;
 const NavMenu = styled.div`
 display: flex;
 align-items: center;
+margin-right: --48px;
 `;
 
 const NavMenuLinks = styled(Link)`
@@ -61,9 +62,8 @@ const Navbar = () => {
             ))}
         </NavMenu>
         <NavBtn>
-            <Button to="/contact">Contact Us</Button>
+            <Button to="/contact" primary='true'>Contact Us</Button>
         </NavBtn>
-        <h1>Navbar</h1>
     </Nav>
   )
 }
