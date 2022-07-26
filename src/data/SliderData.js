@@ -10,7 +10,7 @@ export const SliderData = [
         alt: 'House'
     },
     {
-        title: 'Luxury villa in Bali',
+        title: 'Luxury villa in California',
         price: '$6,000,000',
         path: '/homes',
         label: 'View Home',
@@ -18,7 +18,7 @@ export const SliderData = [
         alt: 'House'
     },
     {
-        title: 'Luxury villa in Bali',
+        title: 'Luxury villa in Brazil',
         price: '$6,000,000',
         path: '/homes',
         label: 'View Home',
@@ -26,7 +26,7 @@ export const SliderData = [
         alt: 'House'
     },
     {
-        title: 'Luxury villa in Bali',
+        title: 'Luxury villa in Miami',
         price: '$6,000,000',
         path: '/homes',
         label: 'View Home',
