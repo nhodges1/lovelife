@@ -27,26 +27,36 @@ const NavLink = css`
 
 
 const Logo = styled(Link)`
-    ${NavLink}
+    ${NavLink};
     font-style: italic;
 `;
 
-const MenuBars = styled.i``;
+const MenuBars = styled.i`
+    display: none;
+`;
 
 const NavMenu = styled.div`
-display: flex;
-align-items: center;
-margin-right: --48px;
+    display: flex;
+    align-items: center;
+    margin-right: --48px;
+
+    @media screen and (max-width: 760px) {
+        display: none;
+    };
 `;
 
 const NavMenuLinks = styled(Link)`
-    ${NavLink}
+    ${NavLink};
 `;
 
 const NavBtn = styled.div`
-display: flex;
-align-items: center;
-margin-right: 20px;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+
+    @media screen and (max-width: 760px) {
+        display: none;
+    };
 `;
 
 const Navbar = () => {
