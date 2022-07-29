@@ -26,10 +26,10 @@ export const SliderData = [
         alt: 'House'
     },
     {
-        title: 'Luxury villa in Miami',
+        title: 'Memories last a life time',
         price: '$6,000,000',
         path: '/homes',
-        label: 'View Home',
+        label: 'View Gallery',
         image: ImageOne,
         alt: 'House'
     },

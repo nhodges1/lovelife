@@ -13,7 +13,6 @@ const Nav = styled.nav`
     z-index: 100;
     position: fixed;
     width: 100%;
-    background: red;
 `;
 
 const NavLink = css`
@@ -51,7 +50,7 @@ const MenuBars = styled(FaBars)`
 const NavMenu = styled.div`
     display: flex;
     align-items: center;
-    margin-right: --48px;
+    margin-right: -48px;
 
     @media screen and (max-width: 760px) {
         display: none;
@@ -85,7 +84,9 @@ const Navbar = () => {
             ))}
         </NavMenu>
         <NavBtn>
-            <Button to="/contact" primary='true'>Contact Us</Button>
+            <Button to="/contact" primary='true'>
+                Contact Us
+            </Button>
         </NavBtn>
     </Nav>
   )
