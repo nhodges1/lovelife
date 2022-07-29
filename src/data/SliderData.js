@@ -1,28 +1,31 @@
-import ImageOne from '../images/friends.jpg';
+import Image1 from '../images/friends.jpg';
+import Image2 from '../images/friends2.jpg';
+import Image3 from '../images/friends3.jpg';
+import Image4 from '../images/friends4.jpg';
 
 export const SliderData = [
     {
-        title: 'Luxury villa in Bali',
+        title: 'Family is everything',
         price: '$6,000,000',
         path: '/homes',
-        label: 'View Home',
-        image: ImageOne,
+        label: 'View Gallery',
+        image: Image1,
         alt: 'House'
     },
     {
-        title: 'Luxury villa in California',
+        title: 'Everlasting Love',
         price: '$6,000,000',
         path: '/homes',
-        label: 'View Home',
-        image: ImageOne,
+        label: 'View Gallery',
+        image: Image2,
         alt: 'House'
     },
     {
-        title: 'Luxury villa in Brazil',
+        title: 'Sweet Friendships',
         price: '$6,000,000',
         path: '/homes',
-        label: 'View Home',
-        image: ImageOne,
+        label: 'View Gallery',
+        image: Image3,
         alt: 'House'
     },
     {
@@ -30,7 +33,7 @@ export const SliderData = [
         price: '$6,000,000',
         path: '/homes',
         label: 'View Gallery',
-        image: ImageOne,
+        image: Image4,
         alt: 'House'
     },
 ];
